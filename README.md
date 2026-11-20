@@ -19,13 +19,7 @@ A single image summing up the world's news on 20 November 2026, built for the ma
 ## Build
 
 ```bash
-MAKEFUN_OUTPUT_DIR=/output npx tsx main.ts
-```
-
-Or with Node 22+:
-
-```bash
-MAKEFUN_OUTPUT_DIR=/output node --experimental-strip-types main.ts
+MAKEFUN_OUTPUT_DIR=/output node main.ts
 ```
 
 ## Licence
